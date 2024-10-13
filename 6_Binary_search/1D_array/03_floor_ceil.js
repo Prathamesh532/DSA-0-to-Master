@@ -1,5 +1,3 @@
-const e = require("express");
-
 let arr = [3, 4, 4, 7, 8, 10];
 
 /*
@@ -47,6 +45,6 @@ const findCeli = (arr, x) => {
 Time Complexity --> O(log2 N) for both solution
 */
 
-let floorCeli = [findFloor(arr, 8), findCeli(arr, 8)];
+let floorCeli = [findFloor(arr, 9), findCeli(arr, 9)];
 
 console.log("The Floor and celi of", arr, "is ---> ", floorCeli);
