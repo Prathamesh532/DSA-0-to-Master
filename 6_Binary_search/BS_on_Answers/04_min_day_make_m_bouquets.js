@@ -43,7 +43,7 @@ const linearSearch = (arr, m, k) => {
 };
 console.log("using linear search", linearSearch(bloomDays, m, k));
 
-// using binary search --->
+// using binary search ---> O(N) + O(log2 (min-max))
 const binarySearch = (arr, m, k) => {
   let n = arr.length;
 
