@@ -9,14 +9,14 @@ let stalls = [0, 3, 4, 7, 10, 9];
  * @param {Number} cows - The number of cows to place.
  * @returns {Boolean} - Returns true if it's possible to place all cows with the given minimum distance.
  */
-const isPossibleToPlace = (arr, index, cows) => {
+const isPossibleToPlace = (arr, distance, cows) => {
   let cowCnt = 1; // Place the first cow in the first stall
   let lastPlaceCow = arr[0]; // Last position where we placed a cow
 
   // Iterate over the array and place cows
   for (let i = 1; i < arr.length; i++) {
-    // Check if the current stall is at least 'index' distance from the last placed cow
-    if (arr[i] - lastPlaceCow >= index) {
+    // Check if the current stall is at least 'distance' distance from the last placed cow
+    if (arr[i] - lastPlaceCow >= distance) {
       cowCnt++; // Place another cow
       lastPlaceCow = arr[i]; // Update the last position of the placed cow
     }
