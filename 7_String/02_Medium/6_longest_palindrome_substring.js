@@ -1,6 +1,43 @@
 // Define the string to be checked for the longest palindrome
 let str = "babad";
 
+// brute force ----> TLE O(N^3)
+/**
+ * @param {string} s
+ * @return {string}
+ */
+
+const isPalindrome = (s, i, j) => {
+  while (i < j) {
+    let char1 = s[i].charAt();
+    let char2 = s[j].charAt();
+    if (char1 !== char2) return false;
+    i++;
+    j--;
+  }
+  return true;
+};
+
+var longestPalindrome = function (s) {
+  let maxLen = 0;
+  let n = s.length;
+  let start = 0,
+    end = 0;
+
+  for (let i = 0; i < n; i++) {
+    for (let j = i; j < n; j++) {
+      if (isPalindrome(s, i, j) === true) {
+        if (j - i + 1 > maxLen) {
+          maxLen = j - i + 1;
+          start = i;
+          end = j;
+        }
+      }
+    }
+  }
+  return s.substring(start, end + 1);
+};
+
 /**
  * Expands around a given center point in the string to find the length of the longest palindrome.
  *
@@ -10,10 +47,6 @@ let str = "babad";
  * @returns {number} The length of the longest palindrome centered at the given point.
  */
 const expandAroundCircle = (s, i, j) => {
-  // Initialize the left and right indices to the starting and ending indices of the center point
-  let left = i;
-  let right = j;
-
   // Expand the palindrome outward from the center point
   while (i >= 0 && j < s.length && s[i] === s[j]) {
     // Move the left index to the left and the right index to the right
