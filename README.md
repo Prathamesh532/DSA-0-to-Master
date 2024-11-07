@@ -9,7 +9,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Sorting Algo**  | **DONE**           | **6+**                    |
 | **✅Arrays**        | **DONE**           | **40+**                   |
 | **✅Binary Search** | **DONE**           | **31+**                   |
-| **✅Strings**       | **Partially DONE** | 15+                       |
+| **✅Strings**       | **Partially DONE** | **15+**                   |
 | Linked Lists        | **In Progress**    | 0                         |
 | Stacks & Queues     | To Be Started      | 0                         |
 | Recursion           | In Progress        | 9+                        |
