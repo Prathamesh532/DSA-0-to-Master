@@ -4,21 +4,21 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 
 ## 🚧 Progress
 
-| Topic               | Completion Status | Number of Problems Solved |
-| ------------------- | ----------------- | ------------------------- |
-| **✅Sorting Algo**  | **DONE**          | **6+**                    |
-| **✅Arrays**        | **DONE**          | **40+**                   |
-| **✅Binary Search** | **DONE**          | **31+**                   |
-| Strings             | In Progress       | 15+                       |
-| Linked Lists        | To Be Started     | 0                         |
-| Stacks & Queues     | To Be Started     | 0                         |
-| Recursion           | In Progress       | 9+                        |
-| Trees               | To Be Started     | 0                         |
-| Hashing             | In Progress       | 2+                        |
-| Greedy Algorithms   | To Be Started     | 0                         |
-| Dynamic Programming | To Be Started     | 0                         |
-| Graph Algorithms    | To Be Started     | 0                         |
-| Advanced Topics     | To Be Started     | 0                         |
+| Topic               | Completion Status  | Number of Problems Solved |
+| ------------------- | ------------------ | ------------------------- |
+| **✅Sorting Algo**  | **DONE**           | **6+**                    |
+| **✅Arrays**        | **DONE**           | **40+**                   |
+| **✅Binary Search** | **DONE**           | **31+**                   |
+| Strings             | **Partially Done** | 15+                       |
+| Linked Lists        | **In Progress**    | 0                         |
+| Stacks & Queues     | To Be Started      | 0                         |
+| Recursion           | In Progress        | 9+                        |
+| Trees               | To Be Started      | 0                         |
+| Hashing             | In Progress        | 2+                        |
+| Greedy Algorithms   | To Be Started      | 0                         |
+| Dynamic Programming | To Be Started      | 0                         |
+| Graph Algorithms    | To Be Started      | 0                         |
+| Advanced Topics     | To Be Started      | 0                         |
 
 ---
 
