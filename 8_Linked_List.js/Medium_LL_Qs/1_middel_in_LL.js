@@ -1,9 +1,8 @@
 // Node class to define the structure of each node in the doubly linked list
 class Node {
-  constructor(data, next = null, back = null) {
+  constructor(data, next = null) {
     this.data = data; // Value of the node
     this.next = next; // Pointer to the next node in the list
-    this.back = back; // Pointer to the previous node in the list
   }
 }
 
@@ -19,21 +18,19 @@ const PrintDll = (head) => {
 
 // Function to convert an array into a doubly linked list
 const ArrayToDLL = (arr) => {
-  let n = arr.length;
+  if (arr.length === 0) return null; // Edge case: if array is empty, return null
 
-  // Initialize head with the first element of the array
-  const head = new Node(arr[0]);
-  let prevNode = head;
+  const head = new Node(arr[0]); // Initialize head node with the first element of array
+  let currentNode = head; // Start with the head node
 
-  // Iterate through the remaining elements of the array
-  for (let i = 1; i < n; i++) {
-    // Create a new node with a back pointer to the previous node
-    let newNode = new Node(arr[i], null, prevNode);
-    prevNode.next = newNode; // Link previous node to the new node
-    prevNode = prevNode.next; // Move to the next node in the list
+  // Loop through remaining elements and create nodes
+  for (let i = 1; i < arr.length; i++) {
+    let newNode = new Node(arr[i]); // Create a new node for each element
+    currentNode.next = newNode; // Link the current node to the new node
+    currentNode = newNode; // Move currentNode to the new node
   }
 
-  return head; // Return the head of the list
+  return head; // Return the head node, which points to the entire linked list
 };
 
 /* Code Function Here */
@@ -54,7 +51,6 @@ const MiddleInLL = (head) => {
 
   // Calculate the index of the middle node (0-based index)
   let middle = Math.floor(cnt / 2);
-  console.log(middle); // Log the middle index for debugging
 
   // Reset temp pointer to head to find the middle node
   temp = head;
