@@ -10,7 +10,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Arrays**        | **DONE**           | **40+**                   |
 | **✅Binary Search** | **DONE**           | **31+**                   |
 | **✅Strings**       | **Partially DONE** | **15+**                   |
-| Linked Lists        | **In Progress**    | **30+**                   |
+| Linked Lists        | **In Progress**    | **32+**                   |
 | Stacks & Queues     | To Be Started      | 0                         |
 | Recursion           | In Progress        | 9+                        |
 | Trees               | To Be Started      | 0                         |
