@@ -7,10 +7,10 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | Topic               | Completion Status  | Number of Problems Solved |
 | ------------------- | ------------------ | ------------------------- |
 | **✅Sorting Algo**  | **DONE**           | **6+**                    |
-| **✅Arrays**        | **DONE**           | **43+**                   |
+| **✅Arrays**        | **DONE**           | **44+**                   |
 | **✅Binary Search** | **DONE**           | **31+**                   |
 | **✅Strings**       | **Partially DONE** | **15+**                   |
-| **✅Linked Lists**  | **DONE**           | **41+**                   |
+| **✅Linked Lists**  | **DONE**           | **42+**                   |
 | Stacks & Queues     | To Be Started      | 0                         |
 | Recursion           | In Progress        | 9+                        |
 | Trees               | To Be Started      | 0                         |
