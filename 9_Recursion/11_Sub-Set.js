@@ -21,9 +21,9 @@ const subset = (arr) => {
   let index = 0;
   let output = [];
   solve(arr, index, output, ans);
-  return ans;
+  return ans
 };
 
-const arr = [1, 2, 3];
+const arr = [5, 5, 5, 5, 5];
 const check = subset(arr);
 console.log(check);
