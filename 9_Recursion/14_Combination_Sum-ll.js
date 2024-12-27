@@ -19,7 +19,6 @@ function combinationSum(arr, index, target, output, ans) {
 
 // better apporach
 function combinationSum_v2(arr, index, target, output, ans) {
-
     // base case
     if (target == 0) {
         ans.push([...output])
