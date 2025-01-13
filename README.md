@@ -12,7 +12,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Strings**       | **Partially DONE** | **15+**                   |
 | **✅Linked Lists**  | **DONE**           | **42+**                   |
 | Stacks & Queues     | To Be Started      | 0                         |
-| Recursion           | In Progress        | 33+                       |
+| Recursion           | In Progress        | 34+                       |
 | Trees               | To Be Started      | 0                         |
 | Hashing             | In Progress        | 2+                        |
 | Greedy Algorithms   | To Be Started      | 0                         |
