@@ -11,8 +11,9 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Binary Search** | **DONE**           | **31+**                   |
 | **✅Strings**       | **Partially DONE** | **15+**                   |
 | **✅Linked Lists**  | **DONE**           | **42+**                   |
+| **✅Recursion**     | **DONE**           | **36+**                   |
+| Sliding-Window      | In Progress        | 2+                        |
 | Stacks & Queues     | To Be Started      | 0                         |
-| Recursion           | In Progress        | 35+                       |
 | Trees               | To Be Started      | 0                         |
 | Hashing             | In Progress        | 2+                        |
 | Greedy Algorithms   | To Be Started      | 0                         |
