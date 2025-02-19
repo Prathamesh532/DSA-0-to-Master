@@ -4,22 +4,23 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 
 ## 🚧 Progress
 
-| Topic               | Completion Status  | Number of Problems Solved |
-| ------------------- | ------------------ | ------------------------- |
-| **✅Sorting Algo**  | **DONE**           | **6+**                    |
-| **✅Arrays**        | **DONE**           | **44+**                   |
-| **✅Binary Search** | **DONE**           | **31+**                   |
-| **✅Strings**       | **Partially DONE** | **15+**                   |
-| **✅Linked Lists**  | **DONE**           | **42+**                   |
-| **✅Recursion**     | **DONE**           | **36+**                   |
-| Sliding-Window      | In Progress        | 11+                        |
-| Stacks & Queues     | To Be Started      | 0                         |
-| Trees               | To Be Started      | 0                         |
-| Hashing             | In Progress        | 2+                        |
-| Greedy Algorithms   | To Be Started      | 0                         |
-| Dynamic Programming | To Be Started      | 0                         |
-| Graph Algorithms    | To Be Started      | 0                         |
-| Advanced Topics     | To Be Started      | 0                         |
+| Topic                | Completion Status  | Number of Problems Solved |
+| -------------------- | ------------------ | ------------------------- |
+| **✅Sorting Algo**   | **DONE**           | **6+**                    |
+| **✅Arrays**         | **DONE**           | **44+**                   |
+| **✅Binary Search**  | **DONE**           | **31+**                   |
+| **✅Strings**        | **Partially DONE** | **15+**                   |
+| **✅Linked Lists**   | **DONE**           | **42+**                   |
+| **✅Recursion**      | **DONE**           | **36+**                   |
+| **✅Sliding-Window** | **DONE**           | **11+**                   |
+| Bit Manipulation     | In Progress        | 1+                        |
+| Stacks & Queues      | To Be Started      | 0                         |
+| Trees                | To Be Started      | 0                         |
+| Hashing              | In Progress        | 2+                        |
+| Greedy Algorithms    | To Be Started      | 0                         |
+| Dynamic Programming  | To Be Started      | 0                         |
+| Graph Algorithms     | To Be Started      | 0                         |
+| Advanced Topics      | To Be Started      | 0                         |
 
 ---
 
