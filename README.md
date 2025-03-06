@@ -13,7 +13,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Linked Lists**   | **DONE**           | **42+**                   |
 | **✅Recursion**      | **DONE**           | **36+**                   |
 | **✅Sliding-Window** | **DONE**           | **11+**                   |
-| Bit Manipulation     | In Progress        | 6+                        |
+| Bit Manipulation     | In Progress        | 8+                        |
 | Stacks & Queues      | To Be Started      | 0                         |
 | Trees                | To Be Started      | 0                         |
 | Hashing              | In Progress        | 2+                        |
