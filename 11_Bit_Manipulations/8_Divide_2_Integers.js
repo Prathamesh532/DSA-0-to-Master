@@ -16,7 +16,8 @@ const divide = (dividend, divisor) => {
   while (n >= d) {
     let cnt = 0;
 
-    while (n >= d * Math.pow(2, cnt + 1) && d * Math.pow(2, cnt + 1) > 0) cnt++;
+    // while (n >= d * Math.pow(2, cnt + 1) && d * Math.pow(2, cnt + 1) > 0) cnt++;
+    while (n >= d << (cnt + 1) && d << (cnt + 1) > 0) cnt++;
 
     ans = ans + Math.pow(2, cnt); // 1 << cnt
     n = n - d * Math.pow(2, cnt); // d << cnt
