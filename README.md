@@ -14,7 +14,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Recursion**        | **DONE**           | **36+**                   |
 | **✅Sliding-Window**   | **DONE**           | **11+**                   |
 | **✅Bit Manipulation** | **DONE**           | **10+**                   |
-| Stacks & Queues        | In Progress        | 10+                        |
+| Stacks & Queues        | In Progress        | 14+                        |
 | Trees                  | To Be Started      | 0                         |
 | Hashing                | In Progress        | 2+                        |
 | Greedy Algorithms      | To Be Started      | 0                         |
