@@ -49,26 +49,6 @@ class Node {
   }
 }
 
-// Recursive function to build the binary tree
-async function buildBinaryTree(message = "Enter data: ") {
-  // Ask the user for input and convert it to number
-  let input = await ask(message);
-  let data = parseInt(input);
-
-  // If the input is -1, it means no node (null), return null
-  if (data === -1) return null;
-
-  // Create a new node with the given data
-  const node = new Node(data);
-
-  // Recursively build the left and right subtree
-  node.left = await buildBinaryTree(`Enter data for left child of ${data}: `);
-  node.right = await buildBinaryTree(`Enter data for right child of ${data}: `);
-
-  // Return the constructed node (with its children)
-  return node;
-}
-
 function reverseLevelOrder(root) {
   if (!root) return [];
 
@@ -92,6 +72,51 @@ function reverseLevelOrder(root) {
   return result;
 }
 
+function reverseLevelOrder_(root) {
+  if (!root) return null;
+
+  let queue = new Queue();
+  let stack = new Array();
+
+  queue.enqueue(root);
+  queue.enqueue(null);
+  stack.push(null);
+
+  while (!queue.isEmpty()) {
+    let front = queue.front();
+    queue.dequeue();
+
+    if (front == null) {
+      if (!queue.isEmpty()) {
+        stack.push(null);
+        queue.enqueue(null);
+      }
+    } else {
+      stack.push(front.data);
+
+      if (front.left !== null) queue.enqueue(front.left);
+      if (front.right !== null) queue.enqueue(front.right);
+    }
+  }
+
+  let result = [];
+  let level = [];
+
+  while (stack.length > 0) {
+    const val = stack.pop();
+    if (val === null) {
+      if (level.length > 0) {
+        result.push(level);
+        level = [];
+      }
+    } else {
+      level.push(val);
+    }
+  }
+
+  console.log("level", level);
+  return result
+}
 
 // Example
 const root = new Node(1);
@@ -102,7 +127,11 @@ root.left.right = new Node(5);
 root.right.left = new Node(6);
 root.right.right = new Node(7);
 
-console.log(reverseLevelOrder(root)); // [4, 5, 6, 7, 2, 3, 1]
+// console.log(reverseLevelOrder(root)); // [4, 5, 6, 7, 2, 3, 1]
+const levels = reverseLevelOrder_(root);
+console.log(levels);
+
+// levels.forEach((level) => console.log(level.join(" ")));
 
 // Close the readline interface once done
 rl.close();
