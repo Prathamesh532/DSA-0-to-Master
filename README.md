@@ -17,7 +17,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Stacks & Queues**     | **DONE**           | **40+**                   |
 | **✅Binary Trees**        | **Done**           | **39+**                   |
 | **✅Binary Search Trees** | **Done**           | **20+**                   |
-| Heap                      | In Progress        | 6+                        |
+| Heap                      | In Progress        | 8+                        |
 | Hashing                   | In Progress        | 2+                        |
 | Greedy Algorithms         | To Be Started      | 0                         |
 | Dynamic Programming       | To Be Started      | 0                         |
