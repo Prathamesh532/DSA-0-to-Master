@@ -18,7 +18,7 @@ Welcome to my **Data Structures and Algorithms (DSA)** journey! This repository 
 | **✅Binary Trees**        | **Done**           | **39+**                   |
 | **✅Binary Search Trees** | **Done**           | **20+**                   |
 | **✅Heap**                | **Done**           | **19+**                   |
-| Greedy Algorithms         | In Progress        | 1+                        |
+| Greedy Algorithms         | In Progress        | 2+                        |
 | Hashing                   | In Progress        | 2+                        |
 | Dynamic Programming       | To Be Started      | 0                         |
 | Graph Algorithms          | To Be Started      | 0                         |
